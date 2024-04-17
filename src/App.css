@@ -1,5 +1,22 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+}
+.SliderTitle {
+  color: #fff; /* Adjust the color to fit your theme */
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Add some space between the title and the carousel */
 }
 
 .App-logo {

@@ -1,0 +1,37 @@
+.slider-container {
+  margin: 0 auto; /* Center the slider container */
+  padding: 20px; /* Add some padding around the slider */
+  max-width: 60%; /* Ensure the slider doesn't exceed the width of the screen */
+}
+
+/* Additional styles for the slider and images */
+.slick-slide img {
+  max-width: 100%;
+  max-height: 80vh; /* Adjust based on your needs */
+  display: block; /* Remove extra space below images */
+  margin: auto; /* Center images */
+  object-fit: contain; /* Cover the slide area without distorting the image. Change to 'contain' if cropping is not desired */
+}
+
+/* Adjust the height of the slider to fit the screen or as needed */
+/* You might need to adjust this based on your specific layout and design */
+.slick-list {
+  max-height: 90vh; /* Example to make the slider fit within the viewport height */
+}
+
+/* Customizing the slick dots color */
+.slick-dots li button:before {
+  color: white; /* Change dot color to white */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white; /* Ensure the active dot is also white */
+}
+
+/* Style for the title of each manga image */
+.manga-title {
+  text-align: center; /* Center-align the title */
+  color: #fff; /* Set the color of the title text */
+  margin-top: 10px; /* Add some space between the image and the title */
+  font-size: 1.2rem; /* Adjust the font size as needed */
+}
