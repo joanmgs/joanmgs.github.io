@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Manga Carousel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Manga Carousel is an interactive web application designed to showcase a collection of popular manga titles. Users can browse through a visually appealing carousel of manga covers, each accompanied by its title. This project aims to provide manga enthusiasts with a dynamic way to discover and explore top-rated manga series, leveraging modern web technologies and a rich manga database.
 
-In the project directory, you can run:
+## Technology Stack
 
-### `npm start`
+- **Frontend**: React.js
+- **State Management**: React Hooks (useState, useEffect)
+- **API Consumption**: Fetch API for asynchronous requests
+- **Third-party Libraries**:
+  - `react-slick`: A React carousel component that offers various customization options.
+  - `slick-carousel`: CSS and JavaScript files for styling and adding interactive features to the carousel.
+- **Styling**: CSS3
+- **AI Integration**: Utilizes GPT-4 for dynamic content generation and user interaction enhancements.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## API Integration
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Manga Carousel utilizes the Jikan API, an unofficial MyAnimeList API, to access a vast database of anime and manga information, including images and titles. Additionally, the project incorporates GPT-4, an advanced AI model developed by OpenAI, to enhance user interactions and provide dynamic content generation. This integration allows for a more engaging user experience by offering personalized manga recommendations and insightful information about manga series.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Dynamic Manga Carousel**: Users can scroll through a selection of popular manga titles, presented in a visually engaging carousel format.
+- **Responsive Design**: The application is fully responsive, ensuring a seamless browsing experience across various devices and screen sizes.
+- **API Integration**: Real-time fetching of manga data from the Jikan API, including cover images and titles. Enhanced with AI-driven features for a personalized experience.
+- **User Interaction**: Leveraging GPT-4, the application offers interactive features such as manga recommendations based on user preferences and queries.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run Manga Carousel locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/joanmgs/manga-carousel.git
+   ```
+2. Install dependencies:
+   ```bash
+   cd manga-carousel
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+4. Open `http://localhost:3000` in your browser to view the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions to Manga Carousel are welcome! Whether you're looking to fix bugs, add new features, or improve the documentation, please refer to the contributing guidelines for more information on how to get involved.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Manga Carousel is open-sourced software licensed under the MIT license.
